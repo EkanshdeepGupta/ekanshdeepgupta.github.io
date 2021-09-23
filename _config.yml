@@ -20,6 +20,7 @@
 
 title: Ekanshdeep Gupta
 email: ekansh@nyu.edu
+logo: /assets/profile_pic.jpg
 description: >- # this means to ignore newlines until "baseurl:"
   Personal webpage for Ekanshdeep Gupta.
 baseurl: "" # the subpath of your site, e.g. /blog
