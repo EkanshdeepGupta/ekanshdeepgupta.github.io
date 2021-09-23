@@ -5,5 +5,6 @@
 layout: default
 ---
 
-## About Me
+About Me
+------------------
 Hi
