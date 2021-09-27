@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Ekanshdeep Gupta</title>
+    <script src="scramble.js"></script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <!--[if lt IE 9]>
@@ -18,8 +19,14 @@
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Profile" />
+          <img src="{{site.logo | relative_url}}" style="border-radius: 50%; width: 80%;
+  height: auto;" alt="Profile" />
         {% endif %}
+
+        <br>
+        <b>Email</b>:
+        <div id="email" style="display:inline;">
+         <noscript><i>Please enable Javascript to view</i></noscript>
 
         <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
@@ -38,11 +45,16 @@
       </section>
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->
         {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    <script>
+    emailScramble = new scrambledString(document.getElementById('email'),
+        'emailScramble', 'hkun.nsadeey@u',
+        [6,2,10,8,11,4,5,3,13,1,12,9,7,14]);
+    </script>
   </body>
 </html> 
