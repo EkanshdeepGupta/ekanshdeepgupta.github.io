@@ -8,6 +8,27 @@
     <script src="scramble.js"></script>
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+
+    <style type="text/css">
+/*      a {
+        color: inherit;
+        text-decoration: underline;
+      }*/
+
+      a:hover, a:focus {
+        color: #069;
+        font-weight: normal;
+      }
+
+      .social {
+        height: 20px;
+        width: auto;
+      }
+      /*body {
+        font-size: 16px;
+      }*/
+    </style>
+
     <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -23,10 +44,15 @@
   height: auto;" alt="Profile" />
         {% endif %}
 
-        <br>
+        <br><br>
         <b>Email</b>:
         <div id="email" style="display:inline;">
          <noscript><i>Please enable Javascript to view</i></noscript>
+        </div>
+        <br>
+        <br>
+        <a href="https://www.twitter.com/EkanshdeepGupta"><img class="social" src="/assets/Twitter_Logo_Blue.png"></a>
+        <a href="https://www.github.com/EkanshdeepGupta"><img class="social" src="/assets/GitHub-Mark-120px-plus.png"></a>
 
         <!-- <p>{{ site.description | default: site.github.project_tagline }}</p> -->
 
@@ -47,7 +73,7 @@
         {% if site.github.is_project_page %}
         <!-- <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p> -->
         {% endif %}
-        <p><small>Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        <p><small><a href="https://github.com/orderedlist">Theme</a>; <a href="https://github.com/jeffdonahue">email scrambler</a></small></p>
       </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
