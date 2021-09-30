@@ -11,7 +11,7 @@ I am a 2nd year Computer Science doctoral student at <a href="https://www.cims.n
 
 My interests lie broadly in logic, formal methods and verification, and I am currently working on generalizing separation logic to verify real world concurrent search structures.
 
-In summer of 2019 I worked at <a href="http://www.lsv.fr/">Laboratoire Spécification et Vérification</a> with Alain Finkel on extending the well-structuredness framework to a more general class of Presburger machines.
+In summer of 2019 I worked at <a href="http://www.lsv.fr/">Laboratoire Spécification et Vérification</a> with <a href="http://www.lsv.fr/~finkel">Alain Finkel</a> on extending the well-structuredness framework to a more general class of Presburger machines.
 
 I received a bachelors degree in mathematics and computer science from <a href="https://www.cmi.ac.in">Chennai Mathematical Institute</a>.
 
