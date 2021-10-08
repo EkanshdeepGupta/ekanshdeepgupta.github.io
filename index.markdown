@@ -20,8 +20,8 @@ I received a bachelors degree in mathematics and computer science from <a href="
     <a href="http://www.lsv.fr/~finkel">Alain Finkel</a>, Ekanshdeep Gupta; <a href="https://www.fsttcs.org.in/archives/2019/index.php">FSTTCS 2019</a> (<a href="https://drops.dagstuhl.de/opus/volltexte/2019/11603/pdf/LIPIcs-FSTTCS-2019-41.pdf">pdf</a>, <a href="/files/wsts.bib" download>bib</a>)
 
 ## Talks
-* Talk on Gödel's incompleteness theorems: <a href="https://nyu0-my.sharepoint.com/:v:/g/personal/eg3134_nyu_edu/ERV9WohXIQxHrIMKAYaAALkB4XUILURe_LtsWK1mQZVQaA?e=ZjAUre">recording</a>, <a href="godel_slides.pdf">slides</a>.
-* Talk on Well Structured Problem for Presubrger counter machines: <a href="wsts_slides.pdf">slides</a>.
+* Talk on Gödel's incompleteness theorems: <a href="https://nyu0-my.sharepoint.com/:v:/g/personal/eg3134_nyu_edu/ERV9WohXIQxHrIMKAYaAALkB4XUILURe_LtsWK1mQZVQaA?e=ZjAUre">recording</a>, <a href="/files/godel_slides.pdf">slides</a>.
+* Talk on Well Structured Problem for Presubrger counter machines: <a href="/files/wsts_slides.pdf">slides</a>.
 
 ## Misc
 * <a href="https://play-order-chaos.herokuapp.com">Play Order and Chaos</a>: web implementation of a 2 player game I learnt about from <a href="https://youtu.be/qsjVfJur1ac">Tom Scott</a>.
