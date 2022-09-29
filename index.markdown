@@ -7,13 +7,17 @@ layout: default
 
 ## About Me
 
-I am a 2nd year Computer Science doctoral student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
+I am a 3rd year Computer Science doctoral student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
 
-My interests lie broadly in logic, formal methods and verification, and I am currently working on generalizing separation logic to verify real world concurrent search structures.
+My interests lie broadly in logic, formal methods, verification, and automated reasoning, and I am currently working on generalizing separation logic to verify real world concurrent search structures.
 
-In summer of 2019 I worked at <a href="http://www.lsv.fr/">Laboratoire Spécification et Vérification</a> with <a href="http://www.lsv.fr/~finkel">Alain Finkel</a> on extending the well-structuredness framework to a more general class of Presburger machines.
+In summer of 2022 I was an intern at Amazon Web Services in the S3 Automated Reasoning Group, where I worked on building a light-weight executable specification for the S3 API.
+
+Previously, in summer of 2019 I worked at <a href="http://www.lsv.fr/">Laboratoire Spécification et Vérification</a> with <a href="http://www.lsv.fr/~finkel">Alain Finkel</a> on extending the well-structuredness framework to a more general class of Presburger machines.
 
 I received a bachelors degree in mathematics and computer science from <a href="https://www.cmi.ac.in">Chennai Mathematical Institute</a>.
+
+Find my CV attached <a href="/files/ekanshdeep_cv.pdf">here</a>.
 
 ## Publications
 * <b>The well structured problem for Presburger counter machines </b>
