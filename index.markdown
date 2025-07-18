@@ -7,13 +7,13 @@ layout: default
 
 ## About Me
 
-I am a 3rd year Computer Science doctoral student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
+I am a 5th year Computer Science doctoral student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
 
-My interests lie broadly in logic, formal methods, verification, and automated reasoning, and I am currently working on generalizing separation logic to verify real world concurrent search structures.
+My interests lie broadly in programming languages, formal methods, verification, and automated reasoning, and I am currently working on using separation logic to verify real world concurrent search structures.
 
-In summer of 2022 I was an intern at Amazon Web Services in the S3 Automated Reasoning Group.
+In summer of 2023, I interned at Amazon Web Services in the Automated Reasoning Group working on <a href="https://dafny.org/">Dafny</a>.
 
-
+In summer of 2022 I interned at Amazon Web Services in the S3 Automated Reasoning Group.
 
 Previously, in summer of 2019 I worked at <a href="http://www.lsv.fr/">Laboratoire Spécification et Vérification</a> with <a href="http://www.lsv.fr/~finkel">Alain Finkel</a> on extending the well-structuredness framework to a more general class of Presburger machines.
 
@@ -22,6 +22,12 @@ I received a bachelors degree in mathematics and computer science from <a href="
 Find my CV attached <a href="/files/ekanshdeep_cv.pdf">here</a>.
 
 ## Publications
+* <b>Raven: An SMT-Based Concurrency Verifier</b>
+    Ekanshdeep Gupta, Nisarg Patel, Thomas Wies; <a href="https://conferences.i-cav.org/2025/">CAV 2025</a> (<a href="/files/raven_cav_2025.pdf">pdf</a>, <a href="https://github.com/nyu-acsys/raven">GitHub</a>)
+
+* <b>Arithmetizing Shape Analysis</b>
+    Sebastian Wolff, Ekanshdeep Gupta, Zafer Essen, Hossein Hojjat, Philip Rummer, Thomas Wies; <a href="https://conferences.i-cav.org/2025/">CAV 2025</a> (<a href="https://arxiv.org/abs/2408.09037">arXiv</a>)
+
 
 * <b>The well structured problem for Presburger counter machines </b>
     <a href="http://www.lsv.fr/~finkel">Alain Finkel</a>, Ekanshdeep Gupta; <a href="https://www.fsttcs.org.in/archives/2019/index.php">FSTTCS 2019</a> (<a href="https://drops.dagstuhl.de/opus/volltexte/2019/11603/pdf/LIPIcs-FSTTCS-2019-41.pdf">pdf</a>, <a href="/files/wsts.bib" download>bib</a>)
