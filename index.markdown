@@ -22,14 +22,14 @@ I received a bachelors degree in mathematics and computer science from <a href="
 Find my CV attached <a href="/files/ekanshdeep_cv.pdf">here</a>.
 
 ## Publications
-* <b>Raven: An SMT-Based Concurrency Verifier</b>
+* <b>Raven: An SMT-Based Concurrency Verifier</b></br>
     Ekanshdeep Gupta, Nisarg Patel, Thomas Wies; <a href="https://conferences.i-cav.org/2025/">CAV 2025</a> (<a href="/files/raven_cav_2025.pdf">pdf</a>, <a href="https://github.com/nyu-acsys/raven">GitHub</a>)
 
-* <b>Arithmetizing Shape Analysis</b>
+* <b>Arithmetizing Shape Analysis</b></br>
     Sebastian Wolff, Ekanshdeep Gupta, Zafer Essen, Hossein Hojjat, Philip Rummer, Thomas Wies; <a href="https://conferences.i-cav.org/2025/">CAV 2025</a> (<a href="https://arxiv.org/abs/2408.09037">arXiv</a>)
 
 
-* <b>The well structured problem for Presburger counter machines </b>
+* <b>The Well Structured Problem for Presburger Counter Machines </b></br>
     <a href="http://www.lsv.fr/~finkel">Alain Finkel</a>, Ekanshdeep Gupta; <a href="https://www.fsttcs.org.in/archives/2019/index.php">FSTTCS 2019</a> (<a href="https://drops.dagstuhl.de/opus/volltexte/2019/11603/pdf/LIPIcs-FSTTCS-2019-41.pdf">pdf</a>, <a href="/files/wsts.bib" download>bib</a>)
 
 ## Talks
