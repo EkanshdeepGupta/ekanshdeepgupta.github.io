@@ -1,0 +1,216 @@
+/* Polish styles */
+
+/* Typography & Base Rules */
+body {
+    font-family: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    font-size: 19px;
+    /* Decreased from 22px as per feedback */
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    animation: fadeIn 0.8s ease-in-out;
+    /* Polish: Fade in */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: #111;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 1.6em;
+    font-size: 1.6em;
+    /* Reduced further to ensure single line */
+    white-space: nowrap;
+    /* Force single line */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* Graceful degradation if screen is tiny */
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+/* Links */
+a {
+    color: #0066cc;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    border-bottom: none;
+}
+
+a:hover,
+a:focus {
+    color: #004499;
+    background-size: 100% 2px;
+    background-color: transparent;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+/* Component: Social Icons */
+.social {
+    height: 22px;
+    width: auto;
+    vertical-align: middle;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+}
+
+.social:hover {
+    opacity: 1;
+}
+
+/* Component: Profile Image */
+img[alt="Profile"] {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 4px solid #fff;
+    /* Polish: Clean white border */
+    border-radius: 50%;
+    padding: 0;
+    background: white;
+
+    /* Force Square Aspect Ratio & Fix Oval Issue */
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+    object-position: center;
+
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    display: block;
+    margin: 0 0 20px 0;
+}
+
+img[alt="Profile"]:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+    /* Lift effect */
+    border-color: #fff;
+}
+
+/* Layout Adjustments */
+.wrapper {
+    max-width: 95%;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+/* CRITICAL FIX: Override the theme's fixed width on section */
+section {
+    width: calc(100% - 400px) !important;
+    /* Take remaining space minus sidebar */
+    max-width: 800px;
+    float: right;
+    padding-bottom: 50px;
+}
+
+header {
+    width: 320px;
+    float: left;
+    position: fixed;
+    top: 40px;
+    /* Polish: Vertical Separator is now handled by pseudo-element */
+    height: 100vh;
+    overflow: auto;
+    padding-right: 20px;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 0;
+    height: calc(100vh - 160px);
+    width: 1px;
+    background: rgba(0, 0, 0, 0.12);
+    /* Slightly darker for better visibility */
+    z-index: 100;
+    pointer-events: none;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 960px) {
+    section {
+        width: 100% !important;
+        float: none;
+        max-width: 100%;
+    }
+
+    header {
+        position: static;
+        float: none;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+        /* Polish: Remove border on mobile */
+        min-height: auto;
+        padding-right: 0;
+    }
+
+    header::after {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+    }
+
+    section {
+        max-width: 850px;
+    }
+}
+
+/* --- Professional Polish --- */
+
+/* Elegant Selection Color */
+::selection {
+    background: rgba(0, 102, 204, 0.15);
+    color: #000;
+}
+
+/* Better List Styling */
+ul li {
+    margin-bottom: 0.5em;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+    margin: 3em 0;
+}

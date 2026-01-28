@@ -7,9 +7,11 @@ layout: default
 
 ## About Me
 
-I am a 5th year Computer Science doctoral student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
+I am a 6th year Computer Science PhD student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
 
-My interests lie broadly in programming languages, formal methods, verification, and automated reasoning, and I am currently working on using separation logic to verify real world concurrent search structures.
+My interests lie broadly in programming languages, formal methods, verification, and automated reasoning, and I am currently working on using separation logic to verify real world concurrent search structures. 
+
+My main research work is on the <a href="https://github.com/nyu-acsys/raven">Raven IVL</a> and verifier, an SMT-based deductive verifier for concurrent programs based on Iris-style separation logic.
 
 In summer of 2023, I interned at Amazon Web Services in the Automated Reasoning Group working on <a href="https://dafny.org/">Dafny</a>.
 
@@ -42,6 +44,6 @@ Find my CV attached <a href="/files/ekanshdeep_cv.pdf">here</a>.
 
 ## Misc
 
-* <a href="https://play-order-chaos.herokuapp.com">Play Order and Chaos</a>: web implementation of a 2 player game I learnt about from <a href="https://youtu.be/qsjVfJur1ac">Tom Scott</a>.
+* ~~<a href="https://play-order-chaos.herokuapp.com">Play Order and Chaos</a>: web implementation of a 2 player game I learnt about from <a href="https://youtu.be/qsjVfJur1ac">Tom Scott</a>.~~ (No longer hosted)
 * <a href="https://www.github.com/EkanshdeepGupta/infinite-recursive-image">Re-create the Droste Effect</a>.
 * <a href="https://www.github.com/EkanshdeepGupta/Quines">Fun quines</a>.
