@@ -47,3 +47,4 @@ Find my CV attached <a href="/files/ekanshdeep_cv.pdf">here</a>.
 * ~~<a href="https://play-order-chaos.herokuapp.com">Play Order and Chaos</a>: web implementation of a 2 player game I learnt about from <a href="https://youtu.be/qsjVfJur1ac">Tom Scott</a>.~~ (No longer hosted)
 * <a href="https://www.github.com/EkanshdeepGupta/infinite-recursive-image">Re-create the Droste Effect</a>.
 * <a href="https://www.github.com/EkanshdeepGupta/Quines">Fun quines</a>.
+* My musical taste: <a href="https://open.spotify.com/playlist/6hqoJ0lkDJmHWffLuvmR9g?si=ECPBE5k0QFqTsumVuLf7zg&pi=LS2n4IUaSHePU">Lifelong Earworms</a>.
