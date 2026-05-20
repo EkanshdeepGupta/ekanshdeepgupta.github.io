@@ -86,10 +86,22 @@ a:focus {
     vertical-align: middle;
     opacity: 0.8;
     transition: opacity 0.2s;
+    display: block;
 }
 
 .social:hover {
     opacity: 1;
+}
+
+a:has(img.social) {
+    display: inline-block;
+    line-height: 0;
+    background-image: none;
+}
+
+a:has(img.social):hover,
+a:has(img.social):focus {
+    background-size: 0;
 }
 
 /* Component: Profile Image */
