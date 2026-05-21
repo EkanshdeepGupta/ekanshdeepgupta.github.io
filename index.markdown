@@ -9,6 +9,8 @@ layout: default
 
 I am a 6th year Computer Science PhD student at <a href="https://www.cims.nyu.edu">Courant Institute of Mathematical Sciences</a>, <a href="https://www.nyu.edu">New York University</a>. I am being advised by <a href="https://cs.nyu.edu/~wies/">Thomas Wies</a>.
 
+I am graduating in August 2026 and am on the job market for industry research positions in programming languages, formal methods, compilers, verification, and automated reasoning. Please reach out if you think I might be a good fit! You can find my <b>CV</b> <a href="/files/ekanshdeep_cv.pdf">here</a>.
+
 My interests lie broadly in programming languages, formal methods, verification, and automated reasoning, and I am currently working on using separation logic to verify real world concurrent search structures. 
 
 My main research work is on the <a href="https://github.com/nyu-acsys/raven">Raven IVL</a> and verifier, an SMT-based deductive verifier for concurrent programs based on Iris-style separation logic.
